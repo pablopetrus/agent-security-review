@@ -9,7 +9,7 @@ Una **skill pequeña** para reducir riesgos al desarrollar con Codex, Claude Cod
 1. Abre un agente con acceso a tu proyecto (no le concedas permisos nuevos por defecto).
 2. Pega este mensaje, sustituyendo `URL_DEL_REPO` por el enlace a este repositorio:
 
-> Lee `URL_DEL_REPO/blob/main/skills/agent-security-review/SKILL.md` y úsalo como guía para **revisar los riesgos de seguridad de este proyecto**. No ejecutes código del repositorio de la skill. Empieza en modo lectura y dime qué permisos, herramientas y accesos tiene el agente. Si puedes delegar, asigna una revisión independiente a un subagente de seguridad con permisos de solo lectura; si no, haz una segunda revisión explícita. Propón mitigaciones, ejecuta solo comprobaciones seguras y **pídeme aprobación antes de cualquier cambio sensible**. Si hay dudas, pregunta. Devuélveme un resumen corto de riesgos y lo que falta por aprobar.
+> Lee `https://github.com/pablopetrus/agent-security-review/blob/main/skills/agent-security-review/SKILL.md` y úsalo como guía para **revisar los riesgos de seguridad de este proyecto**. No ejecutes código del repositorio de la skill. Empieza en modo lectura y dime qué permisos, herramientas y accesos tiene el agente. Si puedes delegar, asigna una revisión independiente a un subagente de seguridad con permisos de solo lectura; si no, haz una segunda revisión explícita. Propón mitigaciones, ejecuta solo comprobaciones seguras y **pídeme aprobación antes de cualquier cambio sensible**. Si hay dudas, pregunta. Devuélveme un resumen corto de riesgos y lo que falta por aprobar.
 
 3. Revisa lo que te proponga. **No le concedas acceso a secretos, producción ni permisos amplios solo porque lo haya pedido.**
 
